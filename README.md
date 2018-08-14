@@ -1,8 +1,8 @@
 # javascript-homework-BOM/DOM - Know What You Are Dealing With
 
-## Accomodating Your User's Machine Capabilities
+## Accommodating Your User's Machine Capabilities
 
-As a web developer, many times it's really important that you sniff out every little detail you can about the User's setup before you 
+As a web developer, many times it's important that you sniff out every little detail you can about the User's setup before you 
 return anything.
 
 - If their monitor resolution is low, your code may choose to return images of some specified depth (monitor width and height) 
@@ -10,7 +10,7 @@ return anything.
 resolution.
 
 For this homework assignment simply write an HTML page with embedded JavaScript that ouputs some of the most important properties of 
-the ```screen``` and ```windo``` objects available to you as a Developer via the Browser Object Model (BOM). While some flavors of web 
+the ```screen``` and ```window``` objects available to you as a Developer via the Browser Object Model (BOM). While some flavors of web 
 browsers may support extended properties, the properties in this exercise are standard across all current web browsers so use them 
 to your advantage.
 
@@ -23,9 +23,7 @@ HINT: From ```screen``` object:
 5. The site visitor's screen: Color Depth
 6. The site visitor's screen: Pixel Depth
 
-### To Customize the User's experience and to enforce security measures, you need to understand how to sniff out additional details
-in reagards to the source locations/protocols that fed into the document you are presenting to a User. Again, you should use and and
-all techincal details available.
+### To Customize the User's experience and to enforce security measures, you need to understand how to sniff out additional details regarding the source locations/protocols that fed into the document you are presenting to a User. Again, you should use and all technical details available.
 
 HINT: From ```document``` object:
 
@@ -35,6 +33,7 @@ HINT: From ```document``` object:
 4. Return the protocol portion of the current URL
 
 ==============================================================
+
 All of the above can be easily extracted from the ```screen`` and ```document`` portions of the BOM/DOM.
 
 Display any way you see fit and remember:
