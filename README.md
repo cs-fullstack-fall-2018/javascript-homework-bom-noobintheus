@@ -34,9 +34,9 @@ HINT: From ```document``` object:
 
 ==============================================================
 
-All of the above can be easily extracted from the ```screen`` and ```document`` portions of the BOM/DOM.
+All of the above can be easily extracted from the ```screen``` and ```document``` portions of the BOM/DOM.
 
-Display any way you see fit and remember:
+# Display any way you see fit and remember:
 * Doesn't always have to be fancy
 * You can always just build a String
 * When it comes time to display in browser you have to *write* to the document (DOM) not just make a String so 
